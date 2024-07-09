@@ -140,3 +140,5 @@ async def delete(id: UUID4, db_session: DatabaseDependency) -> None:
     
     await db_session.delete(atleta)
     await db_session.commit()
+
+#testando codigos de atualizacao do gitbash
